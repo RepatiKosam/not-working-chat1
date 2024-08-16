@@ -10,7 +10,6 @@ sendButton.addEventListener("click",function(){
     if(userMessage.value !== ""){
         createMessageBody();
         userMessage.value = "";
-        userMessage.focus();
     }
 });
 document.addEventListener("keydown",function(event){
@@ -18,7 +17,6 @@ document.addEventListener("keydown",function(event){
         if(userMessage.value !== ""){
             createMessageBody();
             userMessage.value = "";
-            userMessage.focus();
         }
     }
     
